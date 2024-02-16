@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex: 1;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .button-container {
@@ -18,4 +18,12 @@
   border: 1px solid black;
   padding: 30px;
   margin: 20px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  padding: 30px;
 }

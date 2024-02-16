@@ -9,6 +9,7 @@ function ProfileCard() {
     stature: 110,
     hobby: "eats bananas",
   };
+  
   return (
     <div className="profile-card">
       <img src={profile.src} className="profile-avatar" alt="profile-avatar" />

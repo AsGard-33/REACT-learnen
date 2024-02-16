@@ -1,7 +1,8 @@
-// import "./App.css";
+import "./App.css";
 // import Button from "./components/Button/Button";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
-import "./ProfileCard.css";
+import "./components/ProfileCard/styles.css"
+
 
 function App() {
   // const nameOfCard = "Animal";
