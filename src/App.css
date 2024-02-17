@@ -3,27 +3,3 @@
   flex: 1;
   flex-direction: column;
 }
-
-.button-container {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-}
-
-.car-card {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  height: fit-content;
-  border: 1px solid black;
-  padding: 30px;
-  margin: 20px;
-}
-
-.cards-container {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  width: 100%;
-  padding: 30px;
-}
