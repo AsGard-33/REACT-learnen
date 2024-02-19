@@ -6,9 +6,9 @@
     min-height: 20px;
     height: auto;
 } 
+
 .input {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
   }

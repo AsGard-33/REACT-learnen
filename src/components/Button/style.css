@@ -6,8 +6,8 @@
   gap: 10px;
   background: #1F27F5;
   color: aliceblue;
-  
 }
+
 .button:active {
     background: #070b41;
 }
