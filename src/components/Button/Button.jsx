@@ -1,5 +1,6 @@
-function Button () {
-    return <button type="button">Create</button>
+import './style.css'
+function Button ({name, type}) {
+    return <button className='button' type={type}>{name}</button>
 }
 
 export default Button;
