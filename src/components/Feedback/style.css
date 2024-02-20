@@ -1,0 +1,33 @@
+.feedback-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 330px;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(18, 27, 46);
+    color: white;
+  }
+
+  .button-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  
+  .button-control {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    /* width: 150px; */
+  }
+  
+  .count {
+    font-size: 70px;
+    color: white;
+  }
+
+  button:hover {
+  box-shadow: 5px 0px 40px rgb(200, 190, 232);
+  }
