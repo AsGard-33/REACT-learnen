@@ -8,15 +8,13 @@ function Feedback() {
   const [likes, setLikes] = useState(0);
   const [dislike, setDislikes] = useState(0);
 
-  const thumbsUp = () => {
+  const onthumbsUp = () => {
     setLikes((prevValue) => {
       return prevValue + 1;
     });
   };
-  const thumbsDown = () => {
-    setDislikes((prevValue) => {
-      return prevValue + 1;
-    });
+  const onthumbsDown = () => {
+    setDislikes((prevValue) =>  prevValue + 1);
   };
   const handleReset = () => {
     setLikes(0);
@@ -27,12 +25,12 @@ function Feedback() {
     <div className="feedback-wrapper">
       <div className="button-wrapper">
         <div className="button-control">
-          <Button name="👍" onClick={thumbsUp}/>
-          <span className="count">{likes}</span>
+          <Button name="👍" onClick={onthumbsUp}/>
+          <p className="count">{likes}</p>
         </div>
         <div className="button-control">
-          <Button name="👎" onClick={thumbsDown} />
-          <span className="count">{dislike}</span>
+          <Button name="👎" onClick={onthumbsDown} />
+          <p className="count">{dislike}</p>
         </div>
       </div>
       <Button name="Reset results🚮" onClick={handleReset} />
